@@ -41,8 +41,8 @@ linux-* {
 	  WEBUI_SRC_JS  = $$WEBUI_SRC_SCRIPT
 	  WEBUI_SRC_JS += webui-src/app/rswebui.js
 	  WEBUI_SRC_JS += webui-src/app/mithril.js
-	  WEBUI_SRC_JS += webui-src/app/mithril.min.js
 	  WEBUI_SRC_JS += webui-src/app/downloads.js
+	  WEBUI_SRC_JS += webui-src/app/login.js
 
 #	  WEBUI_SRC_JS += webui-src/app/peers.js
 #	  WEBUI_SRC_JS += webui-src/app/main.js

@@ -25,12 +25,13 @@
             //var ui = require("rswebui");
 			//ui.requestCertificate(load_cert);
 
-			var dl = require("downloads");
+                        var login = require("login");
+			//var dl = require("downloads");
         	//dl.view(load_downloads);
 
             var m = require("mithril");
 
-			m.mount(document.body,dl);
+            m.mount(document.body, login);
         }
 
     </script>
